@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.20)
 
-project (oop2_project-yehuda_keller)
+project (the-maze-main)
 
 # New CMake versions map C++20 to /std:c++20 instead of c++latest, so <format>
 # and other unstable ABI features aren't supported. Use C++23 for such versions
@@ -18,7 +18,7 @@ endif ()
 
 if(APPLE)
 
-    add_executable (oop2_project-yehuda_keller MACOSX_BUNDLE "")
+    add_executable (the-maze-main MACOSX_BUNDLE "")
 
     add_subdirectory (include)
     add_subdirectory (src)
@@ -32,7 +32,7 @@ if(APPLE)
 
     set_target_properties ( PROPERTIES MAP_IMPORTED_CONFIG_RELWITHDEBINFO RELEASE)
 
-    target_link_libraries (oop2_project-yehuda_keller  sfml-graphics sfml-audio)
+    target_link_libraries (the-maze-main  sfml-graphics sfml-audio)
 
 endif()
 
