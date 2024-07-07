@@ -1,0 +1,514 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: oop2_project-yehuda_keller
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.8
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target oop2_project-yehuda_keller
+
+
+#############################################
+# Order-only phony target for oop2_project-yehuda_keller
+
+build cmake_object_order_depends_target_oop2_project-yehuda_keller: phony || CMakeFiles/oop2_project-yehuda_keller.dir
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Animation.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Animation.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Animation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Board.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Board.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Board.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/CollisionHandling.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/CollisionHandling.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/CollisionHandling.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Door.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Door.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Door.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/EmptyTile.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/EmptyTile.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/EmptyTile.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Enemy.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Enemy.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Enemy.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/GameController.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/GameController.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/GameController.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/GameObject.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/GameObject.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/GameObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/GameResources.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/GameResources.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/GameResources.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Goblet.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Goblet.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Goblet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Graph.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Graph.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Graph.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/InfoBar.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/InfoBar.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/InfoBar.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Menu.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Menu.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Menu.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/MovingObject.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/MovingObject.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/MovingObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Player.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Player.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Player.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/StaticObject.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/StaticObject.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/StaticObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/Wall.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/Wall.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/Wall.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+build CMakeFiles/oop2_project-yehuda_keller.dir/src/main.cpp.o: CXX_COMPILER__oop2_project-yehuda_keller_Debug /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/src/main.cpp || cmake_object_order_depends_target_oop2_project-yehuda_keller
+  DEP_FILE = CMakeFiles/oop2_project-yehuda_keller.dir/src/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop2_project-yehuda_keller.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target oop2_project-yehuda_keller
+
+
+#############################################
+# Link the executable oop2_project-yehuda_keller.app/Contents/MacOS/oop2_project-yehuda_keller
+
+build oop2_project-yehuda_keller.app/Contents/MacOS/oop2_project-yehuda_keller: CXX_EXECUTABLE_LINKER__oop2_project-yehuda_keller_Debug CMakeFiles/oop2_project-yehuda_keller.dir/src/Animation.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Board.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/CollisionHandling.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Door.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/EmptyTile.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Enemy.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/GameController.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/GameObject.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/GameResources.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Goblet.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Graph.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/InfoBar.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Menu.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/MovingObject.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Player.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/StaticObject.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/Wall.cpp.o CMakeFiles/oop2_project-yehuda_keller.dir/src/main.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.0.dylib /opt/homebrew/lib/libsfml-audio.2.6.0.dylib /opt/homebrew/lib/libsfml-window.2.6.0.dylib /opt/homebrew/lib/libsfml-system.2.6.0.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.6.0.dylib  /opt/homebrew/lib/libsfml-audio.2.6.0.dylib  /opt/homebrew/lib/libsfml-window.2.6.0.dylib  /opt/homebrew/lib/libsfml-system.2.6.0.dylib
+  OBJECT_DIR = CMakeFiles/oop2_project-yehuda_keller.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/oop2_project-yehuda_keller.dir/
+  TARGET_FILE = oop2_project-yehuda_keller.app/Contents/MacOS/oop2_project-yehuda_keller
+  TARGET_PDB = oop2_project-yehuda_keller.pdb
+
+
+#############################################
+# Utility command for package
+
+build CMakeFiles/package.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackConfig.cmake
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build package: phony CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CPackSourceConfig.cmake
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build package_source: phony CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller -B/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build include/CMakeFiles/package.util: CUSTOM_COMMAND include/all
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackConfig.cmake
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build include/package: phony include/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build include/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CPackSourceConfig.cmake
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build include/package_source: phony include/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build include/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/include && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build include/edit_cache: phony include/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build include/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/include && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller -B/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build include/rebuild_cache: phony include/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build src/CMakeFiles/package.util: CUSTOM_COMMAND src/all
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackConfig.cmake
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build src/package: phony src/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build src/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CPackSourceConfig.cmake
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build src/package_source: phony src/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller -B/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build resources/CMakeFiles/package.util: CUSTOM_COMMAND resources/all
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackConfig.cmake
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build resources/package: phony resources/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build resources/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CPackSourceConfig.cmake
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build resources/package_source: phony resources/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build resources/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/resources && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build resources/edit_cache: phony resources/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build resources/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/resources && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller -B/Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build resources/rebuild_cache: phony resources/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build oop2_project-yehuda_keller: phony oop2_project-yehuda_keller.app/Contents/MacOS/oop2_project-yehuda_keller
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug
+
+build all: phony oop2_project-yehuda_keller.app/Contents/MacOS/oop2_project-yehuda_keller include/all src/all resources/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/include
+
+build include/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/resources
+
+build resources/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/src
+
+build src/all: phony
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Phony target to force glob verification run.
+
+build /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/cmake.verify_globs | ../CMakeLists.txt ../include/CMakeLists.txt ../resources/Board1.txt ../resources/Board2.txt ../resources/CMakeLists.txt ../resources/font/TimeFont.ttf ../resources/image/Empty.png ../resources/image/Enemy.png ../resources/image/Goblet.png ../resources/image/InfoGoblet.png ../resources/image/MenuBackground.png ../resources/image/Player.png ../resources/image/SquareInsideSquare.png ../resources/image/Wall.png ../resources/image/WinLevel.png ../resources/image/WonGame.png ../resources/image/backButton.png ../resources/image/clock.png ../resources/image/door.png ../resources/image/exitButton.png ../resources/image/helpBackground.png ../resources/image/helpButton.png ../resources/image/level.png ../resources/image/level1Background.png ../resources/image/musicOff.png ../resources/image/musicOn.png ../resources/image/startButton.png ../resources/music/gameMusic.ogg ../resources/music/menuMusic.ogg ../resources/sound/GobletEffect.wav ../resources/sound/buttonClick.wav ../resources/sound/enemyDie.wav ../src/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../include/CMakeLists.txt ../resources/Board1.txt ../resources/Board2.txt ../resources/CMakeLists.txt ../resources/font/TimeFont.ttf ../resources/image/Empty.png ../resources/image/Enemy.png ../resources/image/Goblet.png ../resources/image/InfoGoblet.png ../resources/image/MenuBackground.png ../resources/image/Player.png ../resources/image/SquareInsideSquare.png ../resources/image/Wall.png ../resources/image/WinLevel.png ../resources/image/WonGame.png ../resources/image/backButton.png ../resources/image/clock.png ../resources/image/door.png ../resources/image/exitButton.png ../resources/image/helpBackground.png ../resources/image/helpButton.png ../resources/image/level.png ../resources/image/level1Background.png ../resources/image/musicOff.png ../resources/image/musicOn.png ../resources/image/startButton.png ../resources/music/gameMusic.ogg ../resources/music/menuMusic.ogg ../resources/sound/GobletEffect.wav ../resources/sound/buttonClick.wav ../resources/sound/enemyDie.wav ../src/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/yehudakeller/Desktop/oop2/oop2_project-yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
