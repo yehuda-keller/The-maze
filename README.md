@@ -1,6 +1,6 @@
 # The Maze
 
-![The Maze]([https://www.youtube.com/watch?v=M3Er4vI04j0&t=2s])
+[Watch the gameplay video on YouTube](https://www.youtube.com/watch?v=M3Er4vI04j0&t=2s)
 
 ## Introduction
 
