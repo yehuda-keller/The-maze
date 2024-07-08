@@ -1,6 +1,6 @@
 # The Maze
 
-![The Maze](path_to_your_image1)
+![The Maze](resources/image/homePage.png)
 
 ## Introduction
 
