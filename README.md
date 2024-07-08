@@ -1,6 +1,6 @@
 # The Maze
 
-[Watch the gameplay video on YouTube](https://www.youtube.com/watch?v=M3Er4vI04j0&t=2s)
+[![Watch the gameplay video on YouTube](https://img.youtube.com/vi/M3Er4vI04j0/0.jpg)](https://www.youtube.com/watch?v=M3Er4vI04j0&t=2s)
 
 ## Introduction
 
