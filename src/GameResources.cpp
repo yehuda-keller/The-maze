@@ -11,33 +11,33 @@
 GameResources::GameResources()
 {
 
-	m_background[MenuBackground].loadFromFile("MenuBackground.png");
-	m_background[Level1Background].loadFromFile("Level1Background.png");
-	m_background[WinLevel].loadFromFile("WinLevel.png");
-	m_background[WonGame].loadFromFile("WonGame.png");
-	m_background[HelpBackground].loadFromFile("helpBackground.png");
-	m_objectTexture[PLAYER].loadFromFile("Player.png");
-	m_objectTexture[ENEMY].loadFromFile("Enemy.png");
-	m_objectTexture[WALL].loadFromFile("Wall.png");
-	m_objectTexture[CLOCK].loadFromFile("clock.png");
-	m_objectTexture[EMPTY_TILE].loadFromFile("Empty.png");
-	m_objectTexture[DOOR].loadFromFile("door.png");
-	m_objectTexture[INFO_LEVEL].loadFromFile("level.png");
-	m_objectTexture[GOBLET].loadFromFile("Goblet.png");
-	m_objectTexture[INFO_GOBLET].loadFromFile("InfoGoblet.png");
-	m_objectTexture[SQUARE_INSIDE_SQUARE].loadFromFile("SquareInsideSquare.png");
-	m_objectTexture[MUSIC_ON].loadFromFile("musicOn.png");
-	m_objectTexture[MUSIC_OFF].loadFromFile("musicOff.png");
-	m_buttens[Start].loadFromFile("startButton.png");
-	m_buttens[Help].loadFromFile("helpButton.png");
-	m_buttens[Exit].loadFromFile("exitButton.png");
-	m_buttens[Back].loadFromFile("BackButton.png");
-	m_fontGame[FONT_1].loadFromFile("TimeFont.ttf");
-	m_music[MenuMusic].openFromFile("menuMusic.ogg");
-	m_music[GameMusic].openFromFile("gameMusic.ogg");
-	m_effects[DeathPlayerSound].loadFromFile("enemyDie.wav");
-	m_effects[ButtonClick].loadFromFile("buttonClick.wav");
-	m_effects[GobletEffect].loadFromFile("GobletEffect.wav");
+	m_background[MenuBackground].loadFromFile("resources/image/MenuBackground.png");
+	m_background[Level1Background].loadFromFile("resources/image/Level1Background.png");
+	m_background[WinLevel].loadFromFile("resources/image/WinLevel.png");
+	m_background[WonGame].loadFromFile("resources/image/WonGame.png");
+	m_background[HelpBackground].loadFromFile("resources/image/helpBackground.png");
+	m_objectTexture[PLAYER].loadFromFile("resources/image/Player.png");
+	m_objectTexture[ENEMY].loadFromFile("resources/image/Enemy.png");
+	m_objectTexture[WALL].loadFromFile("resources/image/Wall.png");
+	m_objectTexture[CLOCK].loadFromFile("resources/image/clock.png");
+	m_objectTexture[EMPTY_TILE].loadFromFile("resources/image/Empty.png");
+	m_objectTexture[DOOR].loadFromFile("resources/image/door.png");
+	m_objectTexture[INFO_LEVEL].loadFromFile("resources/image/level.png");
+	m_objectTexture[GOBLET].loadFromFile("resources/image/Goblet.png");
+	m_objectTexture[INFO_GOBLET].loadFromFile("resources/image/InfoGoblet.png");
+	m_objectTexture[SQUARE_INSIDE_SQUARE].loadFromFile("resources/image/SquareInsideSquare.png");
+	m_objectTexture[MUSIC_ON].loadFromFile("resources/image/musicOn.png");
+	m_objectTexture[MUSIC_OFF].loadFromFile("resources/image/musicOff.png");
+	m_buttens[Start].loadFromFile("resources/image/startButton.png");
+	m_buttens[Help].loadFromFile("resources/image/helpButton.png");
+	m_buttens[Exit].loadFromFile("resources/image/exitButton.png");
+	m_buttens[Back].loadFromFile("resources/image/BackButton.png");
+	m_fontGame[FONT_1].loadFromFile("resources/font/TimeFont.ttf");
+	m_music[MenuMusic].openFromFile("resources/music/menuMusic.ogg");
+	m_music[GameMusic].openFromFile("resources/music/gameMusic.ogg");
+	m_effects[DeathPlayerSound].loadFromFile("resources/sound/enemyDie.wav");
+	m_effects[ButtonClick].loadFromFile("resources/sound/buttonClick.wav");
+	m_effects[GobletEffect].loadFromFile("resources/sound/GobletEffect.wav");
 	
 }
 //-------------BackgroundType---------------
