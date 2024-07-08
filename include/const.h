@@ -40,7 +40,7 @@ const float OBJECTSIZE_Y = 75.f;
 const float SPEED_ANI = 0.025;
 const float SCREEN_X_SIZE = 1920.f;
 const float SCREEN_Y_SIZE = 1050.f;
-const std::string LEVEL_NAME = "Board", FILE_EXTENSION = ".txt";
+const std::string LEVEL_NAME = "resources/Board", FILE_EXTENSION = ".txt";
 const std::string LEVEL = "LEVEL: ", TIME = "TIME: ", GOBLETS = "GOBLETS: ";
 const sf::Vector2f MENU_BUTTON_SIZE = { 115.f, 90.f };
 const sf::Vector2f SCALE_TO_THE_LEFT = { -1, 1 }, SCALE_TO_THE_RIGHT = { 1, 1 };
