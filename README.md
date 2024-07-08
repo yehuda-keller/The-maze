@@ -12,6 +12,7 @@
 ## Introduction
 
 "The Maze" is an original game developed using the SFML graphical library. The game consists of two levels where the player's character must collect two goblets in each level to pass through a door and advance to the next stage. Players must avoid enemies; colliding with an enemy will return the player to the start of the stage. All actions must be completed within a given time limit, or the player will be reset to the beginning of the stage.
+If the player finds the goblets, they get the path to the door via a Depth-First Search (DFS) algorithm.
 
 ## Gameplay
 
