@@ -2,6 +2,13 @@
 
 [![Watch the gameplay video on YouTube](https://img.youtube.com/vi/M3Er4vI04j0/0.jpg)](https://www.youtube.com/watch?v=M3Er4vI04j0&t=2s)
 
+## Images
+
+![Home page](resources/image/homePage.png)
+![Instructions](resources/image/info.png)
+![Gameplay](resources/image/gameBord.png)
+![dfs](resources/image/dfs.png)
+
 ## Introduction
 
 "The Maze" is an original game developed using the SFML graphical library. The game consists of two levels where the player's character must collect two goblets in each level to pass through a door and advance to the next stage. Players must avoid enemies; colliding with an enemy will return the player to the start of the stage. All actions must be completed within a given time limit, or the player will be reset to the beginning of the stage.
@@ -71,10 +78,5 @@ The game includes:
 
 - List any known bugs here.
 
-## Images
 
-![Main Menu](path_to_your_image2)
-![Gameplay](path_to_your_image3)
-![Instructions](path_to_your_image4)
-![Menu Again](path_to_your_image5)
 
